@@ -1,0 +1,989 @@
+vyatta-wanloadbalance (0.13.70+vyos2+current1) unstable; urgency=low
+
+  * T1247: WAN load-balancing fail when !<x.x.x.x/x> configured in rules
+
+ -- hagbard <vyosdev@derith.de>  Thu, 14 Feb 2019 15:27:40 -0800
+
+vyatta-wanloadbalance (0.13.69+vyos2+current1) unstable; urgency=low
+
+  * T258 wan load-balancing on vyos-1.2 permission issue /var/run
+
+ -- hagbard <vyosdev@derith.de>  Thu, 14 Feb 2019 10:55:45 -0800
+
+vyatta-wanloadbalance (0.13.68+vyos2+current1) unstable; urgency=medium
+
+  [ Thomas Jepp ]
+  * Fix build depends.
+  * Fix build failures when building for jessie.
+
+  [ Kim Hagen ]
+
+ -- Kim Hagen <kim.sidney@gmail.com>  Sun, 24 Jan 2016 15:27:39 -0500
+
+vyatta-wanloadbalance (0.13.68+vyos2+lithium9) unstable; urgency=low
+
+  [ Alex Harpin ]
+  * Revert "Make iptables rules use RETURN instead of ACCEPT (#362/#61)"
+  * vyatta-wanloadbalance: offset load-balancing fwmarks to avoid conflicts
+  * vyatta-wanloadbalance: formatting changes for style consistency
+  * vyatta-wanloadbalance: missing hex prefix format specifier flag
+
+ -- Alex Harpin <development@landsofshadow.co.uk>  Sun, 25 Oct 2015 16:30:48 +0000
+ 
+vyatta-wanloadbalance (0.13.68+vyos2+lithium8) unstable; urgency=low
+
+  * vyatta-wanloadbalance: update dh_gencontrol with new development flag
+
+ -- Alex Harpin <development@landsofshadow.co.uk>  Sun, 21 Jun 2015 11:24:19 +0100
+ 
+vyatta-wanloadbalance (0.13.68+vyos2+lithium7) unstable; urgency=low
+
+  [ Alex Harpin ]
+  * vyatta-wanloadbalance: formatting changes for style consistency
+  * vyatta-wanloadbalance: formatting changes for style consistency
+  * vyatta-wanloadbalance: remove legacy load balancing code and tidy up
+  * vyatta-wanloadbalance: ensure the load balancing daemon is started 
+  * vyatta-wanloadbalance: ensure the load balancing daemon is stopped
+
+ -- Alex Harpin <development@landsofshadow.co.uk>  Sun, 08 Feb 2015 14:48:22 +0000
+ 
+vyatta-wanloadbalance (0.13.68+vyos2+lithium6) unstable; urgency=low
+
+  * Update maintainer address 
+
+ -- Alex Harpin <development@landsofshadow.co.uk>  Sun, 28 Dec 2014 08:26:27 +0000
+ 
+vyatta-wanloadbalance (0.13.68+vyos2+lithium5) unstable; urgency=low
+
+  [ Benjamin Beret ]
+  * Make iptables rules use RETURN instead of ACCEPT (#362/#61)
+  
+  [ Alex Harpin ]
+
+ -- Alex Harpin <development@landsofshadow.co.uk>  Sun, 14 Dec 2014 13:07:21 +0000
+ 
+vyatta-wanloadbalance (0.13.68+vyos2+lithium4) unstable; urgency=low
+
+  * Force release
+  * 0.13.68+vyos2+lithium2
+
+ -- Daniil Baturin <daniil@baturin.org>  Fri, 24 Oct 2014 22:00:33 +0200
+
+vyatta-wanloadbalance (0.13.68+vyos2+lithium3) unstable; urgency=low
+
+  * Force release
+
+ -- Daniil Baturin <daniil@baturin.org>  Fri, 24 Oct 2014 21:59:56 +0200
+
+vyatta-wanloadbalance (0.13.68+vyos2+lithium1) unstable; urgency=low
+
+  * New branch
+
+ -- Daniil Baturin <daniil@baturin.org>  Fri, 24 Oct 2014 21:58:59 +0200
+
+vyatta-wanloadbalance (0.13.68+vyos1+helium3) unstable; urgency=low
+
+  [ Daniil Baturin ]
+  * Revert "Vyatta Bugfix 6245: Sticky incoming connection support for
+    WLB"
+
+  [ Ewald van Geffen ]
+  * Vyatta Bugfix 6245: Sticky incoming connection support for WLB
+
+  [ Daniil Baturin ]
+  * Proper capitalization in help string.
+
+ -- Daniil Baturin <daniil@baturin.org>  Fri, 17 Oct 2014 09:50:03 +0200
+
+vyatta-wanloadbalance (0.13.68+vyos1+helium2) unstable; urgency=low
+
+  [ Ewald van Geffen ]
+  * Vyatta Bugfix 6245: Sticky incoming connection support for WLB
+
+  [ Daniil Baturin ]
+
+ -- Daniil Baturin <daniil@baturin.org>  Mon, 01 Sep 2014 00:34:31 +0200
+
+vyatta-wanloadbalance (0.13.68+vyos1+helium1) unstable; urgency=low
+
+  * New branch
+
+ -- Daniil Baturin <daniil@baturin.org>  Sat, 15 Feb 2014 20:32:28 +0100
+
+vyatta-wanloadbalance (0.13.68+hydrogen1) unstable; urgency=low
+
+  * New branch
+
+ -- Daniil Baturin <daniil@baturin.org>  Sun, 17 Nov 2013 01:26:00 +0100
+
+vyatta-wanloadbalance (0.13.67) unstable; urgency=low
+
+  * new branch
+
+ -- John Southworth <john.southworth@vyatta.com>  Fri, 12 Oct 2012 19:48:18 -0700
+
+vyatta-wanloadbalance (0.13.66) unstable; urgency=low
+
+  * new branch
+
+ -- Deepti Kulkarni <deepti@vyatta.com>  Sat, 03 Mar 2012 02:26:37 -0800
+
+vyatta-wanloadbalance (0.13.65) unstable; urgency=low
+
+  * fix for bug 7315. Target status behavior has been modified to fix
+    this bug:
+
+ -- Michael Larson <mike@vyatta.com>  Mon, 12 Sep 2011 15:03:42 -0700
+
+vyatta-wanloadbalance (0.13.64) unstable; urgency=low
+
+  * new branch
+
+ -- Deepti Kulkarni <deepti@vyatta.com>  Thu, 07 Jul 2011 20:59:16 -0700
+
+vyatta-wanloadbalance (0.13.63) unstable; urgency=low
+
+  * add help and check for missed script node so users put script in
+    /config
+
+ -- Mohit Mehta <mohit@vyatta.com>  Fri, 15 Apr 2011 11:36:38 -0700
+
+vyatta-wanloadbalance (0.13.62) unstable; urgency=low
+
+  * * Add help and checks for WLB hook node to push
+
+ -- Mohit Mehta <mohit@vyatta.com>  Wed, 13 Apr 2011 18:14:14 -0700
+
+vyatta-wanloadbalance (0.13.61) unstable; urgency=low
+
+  * check in for Bug 6959
+
+ -- Michael Larson <mike@vyatta.com>  Wed, 30 Mar 2011 12:13:08 -0700
+
+vyatta-wanloadbalance (0.13.60) unstable; urgency=low
+
+  * fix for 6938. incorrectly checking value of key rather than value of
+    value.
+
+ -- Michael Larson <mike@vyatta.com>  Mon, 21 Mar 2011 16:17:37 -0700
+
+vyatta-wanloadbalance (0.13.59) unstable; urgency=low
+
+  * fix typo in help. bug w6850
+
+ -- Michael Larson <mike@vyatta.com>  Mon, 28 Feb 2011 17:32:47 -0800
+
+vyatta-wanloadbalance (0.13.58) unstable; urgency=low
+
+  * fix for bug 6831--typo in val_help.
+
+ -- Michael Larson <mike@vyatta.com>  Thu, 24 Feb 2011 14:07:25 -0800
+
+vyatta-wanloadbalance (0.13.57) unstable; urgency=low
+
+  * fix for 6711. Changed configuration node as requested by support.
+  * fix for missing wlb.conf file.
+
+ -- Michael Larson <mike@vyatta.com>  Sat, 12 Feb 2011 10:26:47 -0800
+
+vyatta-wanloadbalance (0.13.56) unstable; urgency=low
+
+  [ Michael ]
+  * fix for bug 4966.
+
+  [ Stephen Hemminger ]
+  * Remove use of 'Set' from help
+  * Add range checking for TTL hop count
+
+  [ Michael Larson ]
+  * convert wlb runtime directory to /var/run/load-balance from
+    /var/load-balance. fix for bug 6630
+  * fix for bug 6761.
+  * fix for bug 6779. make sure ppp directory is available.
+
+ -- Michael Larson <mike@vyatta.com>  Fri, 11 Feb 2011 17:01:15 -0800
+
+vyatta-wanloadbalance (0.13.55) unstable; urgency=low
+
+  * new branch
+
+ -- An-Cheng Huang <ancheng@vyatta.com>  Tue, 28 Dec 2010 13:52:35 -0800
+
+vyatta-wanloadbalance (0.13.54) unstable; urgency=low
+
+  * don't install linda now that it's been removed
+
+ -- An-Cheng Huang <ancheng@vyatta.com>  Sun, 28 Nov 2010 12:49:41 -0800
+
+vyatta-wanloadbalance (0.13.53) unstable; urgency=low
+
+  * remove deprecated linda override
+
+ -- Stephen Hemminger <stephen.hemminger@vyatta.com>  Sun, 28 Nov 2010 11:33:24 -0800
+
+vyatta-wanloadbalance (0.13.52) unstable; urgency=low
+
+  * Add LSB comment to init script
+
+ -- Stephen Hemminger <stephen.hemminger@vyatta.com>  Mon, 11 Oct 2010 08:55:39 -0700
+
+vyatta-wanloadbalance (0.13.51) unstable; urgency=low
+
+  * UNRELEASED
+
+ -- An-Cheng Huang <ancheng@vyatta.com>  Thu, 02 Sep 2010 18:30:56 -0700
+
+vyatta-wanloadbalance (0.13.50) unstable; urgency=low
+
+  * fix following changes associated with bug 6125
+
+ -- Michael Larson <slioch@slioch.vyatta.com>  Tue, 31 Aug 2010 16:19:36 -0700
+
+vyatta-wanloadbalance (0.13.49) unstable; urgency=low
+
+  * fix one more case
+
+ -- An-Cheng Huang <ancheng@vyatta.com>  Fri, 27 Aug 2010 17:55:19 -0700
+
+vyatta-wanloadbalance (0.13.48) unstable; urgency=low
+
+  * fix squeeze build issues
+
+ -- An-Cheng Huang <ancheng@vyatta.com>  Fri, 27 Aug 2010 17:34:48 -0700
+
+vyatta-wanloadbalance (0.13.47) unstable; urgency=low
+
+  * fix for bug 5990
+
+ -- Michael Larson <slioch@slioch.vyatta.com>  Thu, 26 Aug 2010 12:04:59 -0700
+
+vyatta-wanloadbalance (0.13.46) unstable; urgency=low
+
+  * fix for bug 5998.
+
+ -- Michael Larson <slioch@slioch.vyatta.com>  Thu, 26 Aug 2010 10:41:14 -0700
+
+vyatta-wanloadbalance (0.13.45) unstable; urgency=low
+
+  * update help text to use val_help
+
+ -- An-Cheng Huang <ancheng@vyatta.com>  Tue, 17 Aug 2010 15:31:38 -0700
+
+vyatta-wanloadbalance (0.13.44) unstable; urgency=low
+
+  * don't duplicate code
+  * fix packaging problem
+
+ -- An-Cheng Huang <ancheng@vyatta.com>  Tue, 17 Aug 2010 14:52:54 -0700
+
+vyatta-wanloadbalance (0.13.43) unstable; urgency=low
+
+  * fix for bug 6029
+
+ -- An-Cheng Huang <ancheng@vyatta.com>  Wed, 11 Aug 2010 10:07:09 -0700
+
+vyatta-wanloadbalance (0.13.42) unstable; urgency=low
+
+  * fix for bug 6019
+
+ -- An-Cheng Huang <ancheng@vyatta.com>  Tue, 10 Aug 2010 10:23:17 -0700
+
+vyatta-wanloadbalance (0.13.41) unstable; urgency=low
+
+  * fix for bug 5991 and 5715.
+
+ -- Michael Larson <slioch@slioch.vyatta.com>  Fri, 06 Aug 2010 09:35:10 -0700
+
+vyatta-wanloadbalance (0.13.40) unstable; urgency=low
+
+  * UNRELEASED
+
+ -- An-Cheng Huang <ancheng@vyatta.com>  Thu, 22 Jul 2010 17:26:17 -0700
+
+vyatta-wanloadbalance (0.13.39) unstable; urgency=low
+
+  * part of fix for BZ 5839 - move clear process cmds under restart
+
+ -- Mohit Mehta <mohit.mehta@vyatta.com>  Tue, 20 Jul 2010 14:18:26 -0700
+
+vyatta-wanloadbalance (0.13.38) unstable; urgency=low
+
+  * fix for bug 5583.
+
+ -- Michael Larson <slioch@slioch.vyatta.com>  Fri, 16 Jul 2010 15:19:53 -0700
+
+vyatta-wanloadbalance (0.13.37) unstable; urgency=low
+
+  * added syslog messages on failure to insert default route into policy
+
+ -- Michael Larson <slioch@slioch.vyatta.com>  Mon, 21 Jun 2010 09:32:36 -0700
+
+vyatta-wanloadbalance (0.13.36) unstable; urgency=low
+
+  * submission in reponse to forum posting on multiple entries found in
+    snat table with adsl dhcp configuration:
+
+ -- Michael Larson <slioch@slioch.vyatta.com>  Sat, 19 Jun 2010 18:52:17 -0700
+
+vyatta-wanloadbalance (0.13.35) unstable; urgency=low
+
+  * UNRELEASED
+
+ -- Michael Larson <slioch@slioch.vyatta.com>  Mon, 17 May 2010 10:24:45 -0700
+
+vyatta-wanloadbalance (0.13.34) unstable; urgency=low
+
+  * add help to parent clear command in wlb
+
+ -- Michael Larson <slioch@slioch.vyatta.com>  Mon, 17 May 2010 10:24:32 -0700
+
+vyatta-wanloadbalance (0.13.33) unstable; urgency=low
+
+  * fix for bug 5520.
+
+ -- Michael Larson <slioch@slioch.vyatta.com>  Tue, 06 Apr 2010 11:42:09 -0700
+
+vyatta-wanloadbalance (0.13.32) unstable; urgency=low
+
+  * fix for bug 5504. needed to correctly set nesting on internal
+    configuration file for wlb.conf for the hook parameter.
+
+ -- Michael Larson <slioch@slioch.vyatta.com>  Tue, 30 Mar 2010 10:20:25 -0700
+
+vyatta-wanloadbalance (0.13.31) unstable; urgency=low
+
+  * fix debug state for test modules. debug flag was not being
+    initialized correctly when configured.
+  * when a test is not configured the response time window is
+    incorrectly scaled into milliseconds, therefore without a configured
+    test it is much more likely that a ping test
+
+ -- Michael Larson <slioch@slioch.vyatta.com>  Tue, 23 Mar 2010 15:23:48 -0700
+
+vyatta-wanloadbalance (0.13.30) unstable; urgency=low
+
+  * need to close file when configured for dhcp on ppp interface--file
+    handle leak otherwise.
+  * fix for bug 5485.
+
+ -- Michael Larson <slioch@slioch.vyatta.com>  Fri, 19 Mar 2010 17:13:37 -0700
+
+vyatta-wanloadbalance (0.13.29) unstable; urgency=low
+
+  * fix for 4649
+
+ -- Michael Larson <slioch@slioch.vyatta.com>  Fri, 12 Mar 2010 23:31:20 -0800
+
+vyatta-wanloadbalance (0.13.28) unstable; urgency=low
+
+  * bugfix for 5427. remove outbound interface exclusion on OUTPUT table
+    (i.e. local) traffic when exclude rule is specified.
+
+ -- Michael Larson <slioch@slioch.vyatta.com>  Tue, 09 Mar 2010 13:06:44 -0800
+
+vyatta-wanloadbalance (0.13.27) unstable; urgency=low
+
+  * UNRELEASED
+
+ -- An-Cheng Huang <ancheng@vyatta.com>  Wed, 17 Feb 2010 16:16:33 -0800
+
+vyatta-wanloadbalance (0.13.26) unstable; urgency=low
+
+  * remove command 'clear wan-load-balance connections' as this clears
+    all
+
+ -- Mohit Mehta <mohit.mehta@vyatta.com>  Wed, 03 Feb 2010 18:28:41 -0800
+
+vyatta-wanloadbalance (0.13.25) unstable; urgency=low
+
+  * Revert "Revert "updated version of config.""
+  * OK--now commit with version update is compatible and won't break
+    build.
+
+ -- Michael Larson <slioch@slioch.vyatta.com>  Wed, 23 Dec 2009 15:53:53 -0800
+
+vyatta-wanloadbalance (0.13.24) unstable; urgency=low
+
+  * Revert "updated version of config."
+
+ -- Michael Larson <slioch@slioch.vyatta.com>  Wed, 23 Dec 2009 15:47:48 -0800
+
+vyatta-wanloadbalance (0.13.23) unstable; urgency=low
+
+  * small modification to test type configuration--improved layout.
+  * updated version of config.
+  * fix for bug 5178. initialize resp-time if not set.
+
+ -- Michael Larson <slioch@slioch.vyatta.com>  Wed, 23 Dec 2009 15:41:59 -0800
+
+vyatta-wanloadbalance (0.13.22) unstable; urgency=low
+
+  * add help string modifications to support webgui mandatory behavior.
+
+ -- Michael Larson <slioch@slioch.vyatta.com>  Mon, 30 Nov 2009 15:44:54 -0800
+
+vyatta-wanloadbalance (0.13.21) unstable; urgency=low
+
+  * dependency update
+
+ -- Michael Larson <slioch@slioch.vyatta.com>  Fri, 13 Nov 2009 14:05:15 -0800
+
+vyatta-wanloadbalance (0.13.20) unstable; urgency=low
+
+  [ Michael Larson ]
+  * fix for ppp type interfaces that use the wanlb dhcp configuration
+    option.
+  * bug 4971 fix.
+  * change name of local packet balancing tag from "disable-local-
+    traffic" to "enable-local-traffic". This preserves previous behavior
+    (i.e. no balancing of local traffic) by default, but can be enable
+
+  [ slioch ]
+  * Should handle all of the merge issues.
+  * updated merge exclusion file.
+  * added priority to project node
+
+ -- slioch <slioch@eng-140.vyatta.com>  Tue, 20 Oct 2009 16:18:51 -0700
+
+vyatta-wanloadbalance (0.13.19) unstable; urgency=low
+
+  * remove debug code
+  * fix for bug 4762. exclude packets from the mangle output table where
+    the inbound interface for wlb is the same as the packet outbound
+    interface.
+
+ -- slioch <slioch@eng-140.vyatta.com>  Wed, 29 Jul 2009 15:39:03 -0700
+
+vyatta-wanloadbalance (0.13.18) unstable; urgency=low
+
+  * bug fixes on mult targets. added packet rate limit option to rules
+  * release socks on shutdown
+  * fix for mixed test type configuration where ttl would fail. now
+    works.
+  * fixed iptables command for when limit is applied--only for state=NEW
+    w/o source-based-policy applied
+  * additional fix on test cyclex
+  * clean up all of mangle table on exit, including new entries. fixed
+    bug in target iteration where some targets never completed test
+    cycle
+  * fix bug in failed test completion.
+  * reworked tests to fix bug in handling of received packets. modified
+    show cmd output.
+
+ -- slioch <slioch@eng-140.vyatta.com>  Tue, 28 Jul 2009 14:49:17 -0700
+
+vyatta-wanloadbalance (0.13.17) unstable; urgency=low
+
+  [ root ]
+  * fix for case where iptables command fails on setting snat rules
+    after receiving new address. in this case the new address is not
+    recorded and we'll try creating the rule on the next processing
+    cycle until successful.
+
+  [ slioch ]
+  * fix for  bug 4730
+  * fix for bug 4675. Throttle back the initial setting of nat rules
+    during startup of wlb.
+  * reworked target code to support multiple targets and different
+    target types.
+  * added udp ttl limited test type to health check. modified
+    configuration layout. modified op mode command to
+  * additional files needed
+
+ -- slioch <slioch@eng-140.vyatta.com>  Tue, 21 Jul 2009 13:13:32 -0700
+
+vyatta-wanloadbalance (0.13.16) unstable; urgency=low
+
+  * fix for bug 4698
+  * fix for bug 4699. Note that dhcp nexthop detection was also broken
+    due to changes in the location of the dhcp client information. this
+    was also
+
+ -- slioch <slioch@eng-140.vyatta.com>  Wed, 08 Jul 2009 11:21:45 -0700
+
+vyatta-wanloadbalance (0.13.15) unstable; urgency=low
+
+  * need dummy node.def on op side of things for cmds to show up.
+
+ -- slioch <slioch@eng-140.vyatta.com>  Tue, 07 Jul 2009 16:29:32 -0700
+
+vyatta-wanloadbalance (0.13.14) unstable; urgency=low
+
+  * fix for bug 4649 and 4248. needs documentation.
+
+ -- slioch <slioch@eng-140.vyatta.com>  Tue, 07 Jul 2009 16:24:55 -0700
+
+vyatta-wanloadbalance (0.13.13) unstable; urgency=low
+
+  * added configuration hook to execute script on interface state
+    change. configurable via conf mode. environment variables identify
+    interface and new state.
+  * fix for bug 3704. move primary call to wlb mangle tables out of
+    prerouting and output table scope. now tables are not flushed on
+    removal.
+
+ -- slioch <slioch@eng-140.vyatta.com>  Tue, 07 Jul 2009 15:38:05 -0700
+
+vyatta-wanloadbalance (0.13.12) unstable; urgency=low
+
+  * fix for bug 4072.
+
+ -- slioch <slioch@eng-140.vyatta.com>  Tue, 07 Jul 2009 13:20:50 -0700
+
+vyatta-wanloadbalance (0.13.11) unstable; urgency=low
+
+  * fix for bug 4587. Remove output file on orderly shutdown.
+
+ -- slioch <slioch@eng-140.vyatta.com>  Tue, 07 Jul 2009 13:03:23 -0700
+
+vyatta-wanloadbalance (0.13.10) unstable; urgency=low
+
+  * fix for bug 4658. Move enable-source-based-routing to per rule basis
+    from global setting.
+
+ -- slioch <slioch@eng-140.vyatta.com>  Tue, 07 Jul 2009 12:45:53 -0700
+
+vyatta-wanloadbalance (0.13.9) unstable; urgency=low
+
+  * fix for bug 4409. Additional dynamic support for dynamic policy
+    route and snat when wlb is configured and during runtime. also fix
+    for wlb when running in
+  * fix for bug 4352.
+  * fix for bug 4130. Requires additional configuration outside WLB to
+    support network reachability determination. All locally source
+    routes need an entry in table
+  * fixed output mangle rule creation. need to suppress inbound
+    interface on rule creation for output rule entry as these are
+    locally sourced packets.
+  * fix for bug 4578. Added warning message when the user configures
+    inbound and outbound on same rule, but will allow configuration with
+    warning.
+  * filter on output table for packets already marked in the prerouting
+    table
+  * ping target is now optional. nexthop will be used in place of ping
+    target if ping target is not specified. this is also true of dhcp
+    configurations.
+  * fix for bug 4624. source port configuration was incorrectly
+    configured.
+  * fix for bug 4351. Move conntrack to feature specific chain for raw
+    table.
+  * fix for bug  4083. Names in mangle table now reference outbound
+    interface as per comments in bug.
+
+ -- slioch <slioch@eng-140.vyatta.com>  Tue, 07 Jul 2009 12:37:07 -0700
+
+vyatta-wanloadbalance (0.13.8) unstable; urgency=low
+
+  [ slioch ]
+  * handle condition where system time changes to time before last
+    success value. in this case set value until 0 until system time
+    catches up. only
+
+ -- An-Cheng Huang <ancheng@vyatta.com>  Fri, 29 May 2009 18:37:36 -0700
+
+vyatta-wanloadbalance (0.13.7) unstable; urgency=low
+
+  * missing configuration node required to configure sourced based
+    routing.
+
+ -- slioch <slioch@eng-140.vyatta.com>  Fri, 15 May 2009 14:17:48 -0700
+
+vyatta-wanloadbalance (0.13.6) unstable; urgency=low
+
+  * On socket bind error return and do not attempt to send icmp packet
+
+ -- slioch <slioch@eng-140.vyatta.com>  Sat, 02 May 2009 00:00:18 -0700
+
+vyatta-wanloadbalance (0.13.5) unstable; urgency=low
+
+  * need to convert commit tag on wlb to end tag.
+
+ -- slioch <slioch@eng-140.vyatta.com>  Sat, 18 Apr 2009 20:15:20 -0700
+
+vyatta-wanloadbalance (0.13.4) unstable; urgency=low
+
+  * added source based routing feature.
+
+ -- slioch <slioch@eng-140.vyatta.com>  Thu, 02 Apr 2009 09:50:40 -0700
+
+vyatta-wanloadbalance (0.13.3) unstable; urgency=low
+
+  * added support for global level conntrack flushing on interface state
+    change. Default configuration is to disable this feature.
+
+ -- slioch <slioch@eng-140.vyatta.com>  Sat, 14 Feb 2009 16:31:36 -0800
+
+vyatta-wanloadbalance (0.13.2) unstable; urgency=low
+
+  [ Stephen Hemminger ]
+  * Fix buggy shell script
+
+  [ slioch ]
+  * fix for problem found in webgui on restarting process.
+
+  [ An-Cheng Huang ]
+
+ -- An-Cheng Huang <ancheng@vyatta.com>  Wed, 28 Jan 2009 18:28:46 -0800
+
+vyatta-wanloadbalance (0.13.1) unstable; urgency=low
+
+  [ An-Cheng Huang ]
+  * add support for development build
+
+  [ Stephen Hemminger ]
+  * Convert to Vyatta::
+
+  [ slioch ]
+  * formatting part of 3191 fixed with this bug. moved from dumping
+    proc/net/ip_conntrack output to easier to digest formatted output.
+  * fix for 3191--now use conntrack binary to return relevant entries
+    that
+  * added sigusr2 to wake up process from sleep call. will be used to
+    wake up process when address changes via dhcp.
+  * added support for dhcp in daemon. On receiving SIGUSR2 daemon checks
+    and updates new address for snat, and nexthop for lb routing
+
+  [ An-Cheng Huang ]
+  * update maintainer information
+  * "files" file should be removed before package build
+
+  [ slioch ]
+  * completes work to support dhcp for wan lb.
+  * fixed bug with dhcp support--route was not be reinserted on link
+    down when configured for dhcp. need to retrieve actual nexthop in
+    this case.
+  * fix for bug 3968. enhanced show wan load balance according to
+    preferred design in bug listing. Also exposed time of last
+
+  [ An-Cheng Huang ]
+
+ -- An-Cheng Huang <ancheng@vyatta.com>  Thu, 08 Jan 2009 12:21:11 -0800
+
+vyatta-wanloadbalance (0.13) unstable; urgency=low
+
+	  3.2.0
+  [ Mark O'Brien ]
+
+
+  [ slioch ]
+  * fix for bug 3608. add connnection comment to sudoers directory.
+  * fix for bug 3843. added warning level syslong messages on any
+    interface that changes state in wan lb.
+  * fix for bug 3817
+  * allow free form text field entry for inbound-interface. This allows
+    a wildcard (iptables style) interface to be set, allowing an
+  * missed this configuration node on checkin fix for bug 3332. Now
+    command is available.
+  * fix for bug 3710. also found and fixed another bug with restarting
+    of wlb after changing rule set. this simplifies the application of
+    the rules to
+
+  [ Mike Larson ]
+  * modified failover algorithm to provide deterministic control over
+    which interface is selected. The interface with the highest weight
+    will be preferred.
+  * add rule failover support. Failover mode can now be specified on a
+    specific rule. This rule will only direct traffic to a single active
+    interface, on failure of the ping target traffice will be directed
+    out an alternate interface.
+  * revised fix for dst-range bug to mirror fix for src.
+
+  [ slioch ]
+  * fix for bug 3621.
+
+  [ root ]
+  * fix for bug 3608.
+  * snat rules created by wanloadbanana are now applied before snat
+    rules created by nat. this shouldn't be a problem for nat, as the
+    wanloadbanana rules are filters on packets marked in the mangle
+    table.
+  * Partial fix for bug 3332. WLB can now be configured to run without
+    creating implicit source nat rules.
+  * fixed bug in parsing multiple rule sets
+  * fix for bug 3620. exclusion option is now provided and will create
+    an accept rule. For an exclusion the user does not need to configure
+    interfaces for that rule to balance across.
+  * fix for bug 3530. now nexthop and inbound-interface are required for
+    a successful commit.
+  * added new command that dumps the ip conntrack tables for connections
+    that have been marked by wan load balance. This addresses
+    enhancement request bug 3191.
+
+  [ Stephen Hemminger ]
+  * Handle quagga package name change
+
+  [ root ]
+  * fix for bug 3446. protocol assignment is now identical to firewall.
+
+  [ Mark O'Brien ]
+
+ -- Mark O'Brien <mobrien@firebolt.vyatta.com>  Tue, 25 Nov 2008 19:11:06 -0800
+
+vyatta-wanloadbalance (0.12) unstable; urgency=low
+
+	  3.1.2
+  [ Mark O'Brien ]
+
+
+  [ root ]
+  * my bad. last commit I changed the conntrack module name to uppercase
+    which caused the snat rules to not match the iptables module and
+    therefore fail on load. this should fix the problem, tested icmp
+    with standard configuration and default routes, works now.
+  * fix for bug 3245. need sudo for the rm.
+
+  [ Michael Larson ]
+  * fix for bug 3437
+  * fix for 2948--additional nodes need to refer to interface values.
+  * fix for bug 2779.
+  * fix for bug 3410. added entry for marking of connectionless packets.
+  * fix for bug 3393. apply default route on poll interval if route is
+    not present in policy table. This fixes a problem if the interface
+    is
+
+  [ Mark O'Brien ]
+
+ -- Mark O'Brien <mobrien@firebolt.vyatta.com>  Wed, 23 Jul 2008 21:36:20 -0700
+
+vyatta-wanloadbalance (0.11) unstable; urgency=low
+
+	  3.1.1
+  [ Mark O'Brien ]
+
+
+  [ Michael Larson ]
+  * fix for bug 3390, ip rule entry is now converted to a hex value.
+  * missing socket close statement.
+  * fix for bug 3373. also modified error message and return value on
+    not obtaining socket resource.
+  * fixed up status command output and add wait for interface address
+    check on wlb boot
+
+  [ rbalocca ]
+  * Add missing includes
+
+  [ Michael Larson ]
+  * need to add conntrack entry to the raw table. also cleaned up a few
+  * back out wait on parent pid for child--was causing problems when
+    loading config on boot.
+  * remove stdio statements
+  * reworked weight calculation. There were errors in how weights were
+    computed and applied when links failed.
+  * change on deamon option for parent process to wait
+  * added version information for wanloadbalance.
+  * fix jump instruction for source nat. fix route entry for interfaces
+    that are in admin/link down on wan lb
+  * fixed problem with ping target failure that is not the last listed
+    interface, now the correct mangle wan load balance is referenced
+    when an
+
+  [ Mark O'Brien ]
+
+ -- Mark O'Brien <mobrien@firebolt.vyatta.com>  Sat, 28 Jun 2008 11:22:31 -0700
+
+vyatta-wanloadbalance (0.10) unstable; urgency=low
+
+	  3.1.0
+  [ Mark O'Brien ]
+
+
+  [ Michael Larson ]
+  * added connmark snat rules. means that nat does not need to be
+    configured separately for wlb to work--this is
+  * catch empty ping target on ping send. fixes error msgs for
+    unresolved configured host name--possible fix for bug 3245.
+  * needs accept to truncation rule evaluation on a match. this should
+    now distribute traffic across interfaces.
+  * modified prerouting decisions to work with connmark. user needs to
+    specify inbound interface now (although
+  * fix for iptables rules in tcp state. should fix main problem with
+    wan
+  * added contract entry for state NEW for initial interface. Also add
+    parameter to specify nexthop via interface in
+
+  [ rbalocca ]
+  * Ignore log file
+  * Convert to our method of changelog creation
+
+  [ Mohit Mehta ]
+  * Fix Bug 3069 Help strings should be standardized
+
+  [ Michael Larson ]
+  * minor text change on conf error: bug 2951
+
+  [ Mark O'Brien ]
+
+ -- Mark O'Brien <mobrien@firebolt.vyatta.com>  Tue, 17 Jun 2008 09:27:42 -0700
+
+vyatta-wanloadbalance (0.9) unstable; urgency=low
+
+  3.0.5
+
+
+ -- Mark O'Brien <mobrien@vyatta.com>  Tue, 06 May 2008 12:43:45 -0700
+
+vyatta-wanloadbalance (0.8) unstable; urgency=low
+
+  3.0.4
+
+
+ -- Mark O'Brien <mobrien@vyatta.com>  Mon, 05 May 2008 16:41:02 -0700
+
+vyatta-wanloadbalance (0.7) unstable; urgency=low
+
+  3.0.3
+  [ Mark O'Brien ]
+
+
+  [ rbalocca ]
+  * Indicate the VC4.0.2 release candidate in the changelog
+
+  [ Mark O'Brien ]
+
+ -- Mark O'Brien <mobrien@vyatta.com>  Tue, 29 Apr 2008 16:42:50 -0700
+
+vyatta-wanloadbalance (0.6) unstable; urgency=low
+
+  VC4.0.2
+
+
+ -- Mark O'Brien <mobrien@vyatta.com>  Sat, 19 Apr 2008 11:56:32 -0700
+
+vyatta-wanloadbalance (0.5) unstable; urgency=low
+
+  VC4.0.2 release candidate
+  [ Mark O'Brien ]
+
+
+  [ Stephen Hemminger ]
+  * validate interface name in template
+  * allow vlan for load-balancing interface
+
+  [ Mark O'Brien ]
+
+ -- Mark O'Brien <mobrien@vyatta.com>  Wed, 16 Apr 2008 09:50:33 -0700
+
+vyatta-wanloadbalance (0.4) unstable; urgency=low
+
+  3.0.2
+  [ Mark O'Brien ]
+
+  * 3.0.1
+
+  [ Michael Larson ]
+  * modified configuration to mirror nat/firewall for port/address
+    configuration. added port configuration support for common port
+  * added final validation to address ranges and negation operators. now
+    behavior is the same as firewall and nat.
+  * removed network from configuration. changed configuration error
+    without valid rule to warning. fixed up path to iptables for status
+    show command.
+
+  [ rbalocca ]
+  * Fix debian dependencies
+  * Set dependencies on either bash or vyatta-bash
+
+  [ Mark O'Brien ]
+
+ -- Mark O'Brien <mobrien@vyatta.com>  Fri, 04 Apr 2008 18:01:25 -0700
+
+vyatta-wanloadbalance (0.3) unstable; urgency=low
+
+  VC4.0.1
+  [ Mark O'Brien ]
+
+
+  [ Michael Larson ]
+  * changed Wan to WAN in show command when not configured.
+  * fix for 2951. checks for at least one interface with ping target and
+    one rule with an interface defined.
+
+  [ Stephen Hemminger ]
+  * convert from VPL to GPLv2
+  * update from VPL1 to GPLv2
+
+  [ rbalocca ]
+  * Fix upgrade of wanloadbalance
+  * postrm script was failing
+
+  [ Mark O'Brien ]
+
+ -- Mark O'Brien <mobrien@vyatta.com>  Tue, 18 Mar 2008 19:05:20 -0700
+
+vyatta-wanloadbalance (0.2) unstable; urgency=low
+
+  vc4.0.0
+  [ Mark O'Brien ]
+
+
+  [ Michael Larson ]
+  * added init script
+  * more minor project modifications
+  * asdf
+  * fix debian files so pkg is created correctly
+  * more package mods--added conf file, removed configuration files that
+    shouldn't be part of this package.
+  * initial checkin of skeletal cli commands for wan load-balancing,
+    plus other packaging changes.
+  * checkin of cli commands for wan loadbalancing. some cleanup of the
+    project--more cli work to follow...
+  * additional changes to go with last push
+  * numerous changes: added help, added init script, modified source to
+    support daemon and pid creation, fixed conf file creation when
+  * moved most stdout messages to new debug output command. reworked
+    (simplified) init script so that rules table is properly cleaned
+  * fixed postinst for init script,+ other cleanup
+  * fixed up node.def files as per an-cheng's changes. more pkg stuff
+    for the init script. added default values.
+  * init script fix. set up show commands. create output file for wan lb
+    status and provide show status cmd.
+  * processing added to compute elapsed time in pretty output format for
+    show commands. time since last failure/success per
+  * whole raft of cli related changes. Fixed bugs in display output--
+    added error checking on some configuration combinations. added
+  * added status command, more cli bugfixes and postinst fix.
+  * changed port definition to be consistent with fw/nat (i.e. single
+    port line allow multi-port configuration). init script fix
+  * missing bracket in conf file creation.
+  * more install stuff--
+  * added back status command to inst instructions.
+  * fix for post instruction for status show cmd
+  * fixed errors introduced when converting to new port definitions.
+  * fixing installation of init script.
+  * more cleanup.
+  * added postinst instruction for moving show cmds.
+  * fix for bug 2780.
+  * more packaging tweaks and bugfixes.
+  * fixed init script for no start argument provided for configuration
+    file. def is /var/load-balance/wlb.con
+  * stop wan lb process on delete of load-balance node.
+  * provide help string at root of load-balancing configuration.
+  * fix for bug 2781. sudo needed for non-root login for file operations
+  * non-root support for status op cmd
+  * fix for bug 2841. wanloadbalance is started on configuration, and on
+    load of configuration (including boot
+  * added vyatta-wanloadbalance.init
+  * suppress stderr from commit.
+  * fix postrm install script to point to current init script
+  * cli specifies timeout value in seconds--conf takes value in
+    milliseconds. Need to multiple cli value by
+  * add check in cli for both address and network configured--in this
+    case generate configuration error.
+  * fixed bug where protocol is all or icmp and source/destination
+    address/network are set. address/network were being ignore--now
+  * clean up cosmetics in help
+  * critical fix for bug 2882 :)
+
+  [ rbalocca ]
+  * Remove derived files
+  * Add derived files to .gitignore
+
+  [ Mark O'Brien ]
+
+ -- Mark O'Brien <mobrien@vyatta.com>  Mon, 25 Feb 2008 17:40:18 -0800
+
+vyatta-wanloadbalance (0.1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Michael Larson <mike@vyatta.com>  Fri, 14 Dec 2007 17:31:53 -0700

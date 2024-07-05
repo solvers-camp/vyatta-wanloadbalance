@@ -1,0 +1,23 @@
+Source: vyatta-wanloadbalance
+Section: contrib/net
+Priority: extra
+Maintainer: VyOS Package Maintainers <maintainers@vyos.net>
+Build-Depends: debhelper (>= 5), autotools-dev, automake, autoconf, cpio, libtool
+Standards-Version: 3.7.2
+
+Package: vyatta-wanloadbalance
+Architecture: any
+Depends: sed (>= 4.1.5),
+ perl (>= 5.8.8),
+ procps (>= 1:3.2.7-3),
+ vyatta-cfg (>= 0.15.33),
+ vyatta-bash | bash (>= 3.1),
+ coreutils (>= 5.97-5.3),
+ libc6 (>= 2.7-1)
+Suggests: util-linux (>= 2.13-5),
+ net-tools,
+ ethtool,
+ ncurses-bin (>= 5.5-5)
+Description: VyOS load balancing configuration system
+ This package has the VyOS wan load balance project. It includes support for
+ the VyOS CLI for configuration. 
